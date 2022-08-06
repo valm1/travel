@@ -437,7 +437,7 @@ input {
   text-align: center;
 }
 .stories {
-  padding-top: 80px;
+  padding: 50px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -458,7 +458,6 @@ input {
   display: grid;
   padding-top: 40px;
   gap: 30px;
-  max-height: 90%;
 }
 .stories-item {
   display: flex;
@@ -506,4 +505,29 @@ input {
   display: flex;
   justify-content: center;
   padding: 40px;
+}
+.footer {
+  padding: 0 30 px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+.logo-rs {
+  padding-left: 30px;
+  width: 120px;
+}
+.logo-media {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.description {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
 }
